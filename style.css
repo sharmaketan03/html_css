@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ font-family:'poppins', Courier, monospace;
+}
+
+
+#logo{
+    background-color:yellow;
+     padding:0.8rem 3rem;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:2rem;
+    color: black;
+    
+}
+
+.first img{
+    width:300px;
+    height:300px;
+     border: 2px solid black;
+     margin:3rem 3rem;
+     
+}
+ .h1{
+        
+        color:yellow;
+        width:600px;
+        text-align: justify;
+        margin:10rem  12rem;
+    } 
+
+li{
+   list-style-type:none;
+   margin:0.5rem;
+   
+   
+}
+.first{
+   display:flex;
+   justify-content:space-between;
+   background-color: black;
+   
+}
+.list ul{
+    display:flex;
+    justify-content:space-between;
+}
