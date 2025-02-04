@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
  font-family:'poppins', Courier, monospace;
+ 
 }
 
 
@@ -11,7 +12,7 @@
      padding:0.8rem 3rem;
     display:flex;
     justify-content:space-between;
-    margin-bottom:2rem;
+    align-items:center;
     color: black;
     
 }
@@ -20,7 +21,7 @@
     width:300px;
     height:300px;
      border: 2px solid black;
-     margin:3rem 3rem;
+     margin:3rem 3rem 0;
      
 }
  .h1{
@@ -28,8 +29,8 @@
         color:yellow;
         width:600px;
         text-align: justify;
-        margin:10rem  12rem;
-    } 
+        margin:0 3rem;
+} 
 
 li{
    list-style-type:none;
@@ -40,6 +41,8 @@ li{
 .first{
    display:flex;
    justify-content:space-between;
+   align-items: center;
+  
    background-color: black;
    
 }
